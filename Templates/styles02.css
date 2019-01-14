@@ -1,17 +1,17 @@
 header{
-  height: 100px;
-  background-color: red;
+  height: 200px;
+  background-color: #FE2712;
 }
 
 nav{
   height: 50px;
-  background-color: orange;
+  background-color: #347B98;
 }
 
 .flex-container {
   display: flex;
-  height: 200px;
-  flex-direction: row;      /* row-reverse; column; column-reverse */
+  height: 300px;
+  flex-direction: column;      /* row; row-reverse; column; column-reverse */
   flex-wrap: wrap;          /* nowrap (default); wrap-reverse */
   /* flex-flow: row wrap; (combines flex-direction & flex-wrap) */
   justify-content: space-around;  /* flex-start (default); flex-end; left; right; space-around; space-between */
@@ -28,6 +28,6 @@ nav{
 }
 
 footer{
-  height: 100px;
-  background-color: red;
+  height: 50px;
+  background-color: #092834;
 }
